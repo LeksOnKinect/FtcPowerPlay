@@ -15,7 +15,7 @@ public class OdometryGlobalCoordinatePosition implements Runnable{
     private DcMotor verticalEncoderLeft, verticalEncoderRight, horizontalEncoder;
 
     //Thead run condition
-    private boolean isRunning = true;
+     private boolean isRunning = true;
 
     //Position variables used for storage and calculations
     double verticalRightEncoderWheelPosition = 0, verticalLeftEncoderWheelPosition = 0, normalEncoderWheelPosition = 0,  changeInRobotOrientation = 0;

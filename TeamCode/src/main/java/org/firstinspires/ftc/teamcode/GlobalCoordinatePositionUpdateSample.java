@@ -11,7 +11,7 @@ import org.firstinspires.ftc.teamcode.OdometryGlobalCoordinatePosition;
 public class GlobalCoordinatePositionUpdateSample extends LinearOpMode {
 
     //Odometry encoder wheels
-    DcMotor verticalRight, verticalLeft, horizontal;
+     DcMotor verticalRight, verticalLeft, horizontal;
 
     //The amount of encoder ticks for each inch the robot moves. This will change for each robot and needs to be changed here
     final double COUNTS_PER_INCH = 307.699557;

@@ -57,7 +57,7 @@ public class MyOdometryOpmode extends LinearOpMode {
         }
 
         //Stop the thread
-        globalPositionUpdate.stop();
+         globalPositionUpdate.stop();
 
     }
 

@@ -23,7 +23,7 @@ public class OdometryCalibration extends LinearOpMode {
     //Drive motors
     DcMotor right_front, right_back, left_front, left_back;
     //Odometry Wheels
-    DcMotor verticalLeft, verticalRight, horizontal;
+     DcMotor verticalLeft, verticalRight, horizontal;
 
     //IMU Sensor
     BNO055IMU imu;
